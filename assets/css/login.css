@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.login {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+.loginn {
+    padding: 20px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.loginn h2 {
+    color: #357abd;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.loginn label {
+    color: #357abd;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.loginn input,
+.loginn select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.loginn button {
+    width: 100%;
+    padding: 10px;
+    background-color: #357abd;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.loginn button:hover {
+    background-color: #357abd;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-div img {
+    max-width: 200px;
+}
+
+#role{
+    cursor: pointer;
+}
+
+#username{
+    cursor: pointer;
+}
+
+#password{
+    cursor: pointer;
+}
